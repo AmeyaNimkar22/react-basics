@@ -1,0 +1,90 @@
+.logged{
+    background-color: rgb(19, 173, 19);
+    color: white;
+    padding: 20px;
+}
+.notlogged{
+    background-color: rgb(218, 29, 29);
+    color: white;
+    padding: 20px;
+
+}
+.color-picker-component{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid black 1px;
+    padding: 20px;
+    margin: 100px;
+}
+.color-display{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    align-items: center;
+    text-align: center;
+    width: 100px;
+    margin-bottom: 10px;
+
+}
+input{
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color:rgb(173, 176, 177);
+
+}
+#container-todo{
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(10, 1, 1, 0.096);
+    width: 100%;
+    
+}
+#add{
+    background-color:rgb(140, 209, 75);
+    color: white;
+    border: none;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#complete{
+    background-color:rgb(75, 189, 209);
+    color: white;
+    border: none;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#done{
+    background-color:rgb(98, 168, 41);
+    color: white;
+    border: none;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#TaskList{
+    background-color: rgb(133, 204, 133);
+    width: 100%;
+    color: white;
+    border-radius: 10px;
+    width: 300px;
+}
+#todolist{
+    background-color: rgb(182, 187, 182);
+    
+    margin-top: 5px;
+    color: white;
+    border-radius: 10px;
+    width: 300px;
+}
