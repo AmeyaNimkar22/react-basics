@@ -1,7 +1,7 @@
-import UseEffectDemo from "./UseEffectDemo";
+import UseRefDemo from "./UseRefDemo";
 
 function App() {
-  return (< UseEffectDemo/>);
+  return (< UseRefDemo/>);
   
 }
 
